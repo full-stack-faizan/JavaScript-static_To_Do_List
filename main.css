@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.main{
+    background-color: hsl(205.71deg 33.33% 95.88%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.second{
+    height: 100vh;
+    width: 33rem;
+  
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title-function{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: auto;
+    margin-top: 9rem;
+}
+.title-function h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: hsl(204.8deg 86.21% 17.06%);
+    font-weight: bolder;
+
+}
+.functionality{
+   
+    width: 32rem;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputbox{
+    width: 23rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.btn{
+    width: 8rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.show-list{
+   
+    width: 33rem;
+    height: 60rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.clear{
+  
+    width: 33rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+}
+.clr{
+    width: 10rem;
+    height: 5rem;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+
+}
+.clear-none{
+    visibility: none;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 33rem;
+    height: 5rem;
+}
+.resutl-pices{
+ 
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    height: 5rem;
+}
+
+.resutl-pices p{
+
+  width: 25rem;
+    height: 4rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+   
+   
+}
+.button-div{
+  
+    width: 7rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button-div button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+cursor: pointer;
+height: 3rem;
+width: 3rem;
+background-color: none;
+outline: none;
+border: none;
+
+}
+.fa-file-pen{
+    color: green;
+}
+.fa-trash{
+    color: red;
+}
